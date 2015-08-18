@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		304CE8191B17552D00FEF2E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 304CE8181B17552D00FEF2E0 /* Foundation.framework */; };
+		304CE81B1B17552D00FEF2E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 304CE81A1B17552D00FEF2E0 /* CoreGraphics.framework */; };
+		304CE81D1B17552D00FEF2E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 304CE81C1B17552D00FEF2E0 /* UIKit.framework */; };
+		304CE8231B17552D00FEF2E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 304CE8211B17552D00FEF2E0 /* InfoPlist.strings */; };
+		304CE8251B17552D00FEF2E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 304CE8241B17552D00FEF2E0 /* main.m */; };
+		304CE8291B17552D00FEF2E0 /* BLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 304CE8281B17552D00FEF2E0 /* BLAppDelegate.m */; };
+		304CE8311B17552D00FEF2E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304CE8301B17552D00FEF2E0 /* Images.xcassets */; };
+		304CE8381B17552D00FEF2E0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 304CE8371B17552D00FEF2E0 /* XCTest.framework */; };
+		304CE8391B17552D00FEF2E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 304CE8181B17552D00FEF2E0 /* Foundation.framework */; };
+		304CE83A1B17552D00FEF2E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 304CE81C1B17552D00FEF2E0 /* UIKit.framework */; };
+		304CE8421B17552D00FEF2E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 304CE8401B17552D00FEF2E0 /* InfoPlist.strings */; };
+		304CE8441B17552D00FEF2E0 /* BLSignatureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 304CE8431B17552D00FEF2E0 /* BLSignatureTests.m */; };
+		304CE8501B17555B00FEF2E0 /* BLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 304CE84E1B17555B00FEF2E0 /* BLViewController.m */; };
+		304CE8511B17555B00FEF2E0 /* BLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 304CE84F1B17555B00FEF2E0 /* BLViewController.xib */; };
+		30B748271B1755E00038CF14 /* BLSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B748261B1755E00038CF14 /* BLSignatureView.m */; };
+		30B748291B1755EE0038CF14 /* BLSignatureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30B748281B1755EE0038CF14 /* BLSignatureView.xib */; };
+		30B7482C1B175A0C0038CF14 /* BLPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B7482B1B175A0C0038CF14 /* BLPoint.m */; };
+		30B7483B1B1772170038CF14 /* BLPointList.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B7483A1B1772170038CF14 /* BLPointList.m */; };
+		30B7483E1B1772870038CF14 /* BLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B7483D1B1772870038CF14 /* BLNode.m */; };
+		30B748411B17731E0038CF14 /* BLNodeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B748401B17731E0038CF14 /* BLNodeList.m */; };
+		30B748441B17733F0038CF14 /* BLSpline.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B748431B17733F0038CF14 /* BLSpline.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		304CE83B1B17552D00FEF2E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 304CE80D1B17552D00FEF2E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 304CE8141B17552D00FEF2E0;
+			remoteInfo = BLSignature;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		304CE8151B17552D00FEF2E0 /* BLSignature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLSignature.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		304CE8181B17552D00FEF2E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		304CE81A1B17552D00FEF2E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		304CE81C1B17552D00FEF2E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		304CE8201B17552D00FEF2E0 /* BLSignature-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BLSignature-Info.plist"; sourceTree = "<group>"; };
+		304CE8221B17552D00FEF2E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		304CE8241B17552D00FEF2E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		304CE8261B17552D00FEF2E0 /* BLSignature-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BLSignature-Prefix.pch"; sourceTree = "<group>"; };
+		304CE8271B17552D00FEF2E0 /* BLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLAppDelegate.h; sourceTree = "<group>"; };
+		304CE8281B17552D00FEF2E0 /* BLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLAppDelegate.m; sourceTree = "<group>"; };
+		304CE8301B17552D00FEF2E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		304CE8361B17552D00FEF2E0 /* BLSignatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLSignatureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		304CE8371B17552D00FEF2E0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		304CE83F1B17552D00FEF2E0 /* BLSignatureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BLSignatureTests-Info.plist"; sourceTree = "<group>"; };
+		304CE8411B17552D00FEF2E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		304CE8431B17552D00FEF2E0 /* BLSignatureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLSignatureTests.m; sourceTree = "<group>"; };
+		304CE84D1B17555B00FEF2E0 /* BLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLViewController.h; sourceTree = "<group>"; };
+		304CE84E1B17555B00FEF2E0 /* BLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLViewController.m; sourceTree = "<group>"; };
+		304CE84F1B17555B00FEF2E0 /* BLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLViewController.xib; sourceTree = "<group>"; };
+		30B748251B1755E00038CF14 /* BLSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLSignatureView.h; sourceTree = "<group>"; };
+		30B748261B1755E00038CF14 /* BLSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLSignatureView.m; sourceTree = "<group>"; };
+		30B748281B1755EE0038CF14 /* BLSignatureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLSignatureView.xib; sourceTree = "<group>"; };
+		30B7482A1B175A0C0038CF14 /* BLPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLPoint.h; sourceTree = "<group>"; };
+		30B7482B1B175A0C0038CF14 /* BLPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLPoint.m; sourceTree = "<group>"; };
+		30B748391B1772170038CF14 /* BLPointList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLPointList.h; sourceTree = "<group>"; };
+		30B7483A1B1772170038CF14 /* BLPointList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLPointList.m; sourceTree = "<group>"; };
+		30B7483C1B1772870038CF14 /* BLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLNode.h; sourceTree = "<group>"; };
+		30B7483D1B1772870038CF14 /* BLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLNode.m; sourceTree = "<group>"; };
+		30B7483F1B17731E0038CF14 /* BLNodeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLNodeList.h; sourceTree = "<group>"; };
+		30B748401B17731E0038CF14 /* BLNodeList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLNodeList.m; sourceTree = "<group>"; };
+		30B748421B17733F0038CF14 /* BLSpline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLSpline.h; sourceTree = "<group>"; };
+		30B748431B17733F0038CF14 /* BLSpline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLSpline.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		304CE8121B17552D00FEF2E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304CE81B1B17552D00FEF2E0 /* CoreGraphics.framework in Frameworks */,
+				304CE81D1B17552D00FEF2E0 /* UIKit.framework in Frameworks */,
+				304CE8191B17552D00FEF2E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		304CE8331B17552D00FEF2E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304CE8381B17552D00FEF2E0 /* XCTest.framework in Frameworks */,
+				304CE83A1B17552D00FEF2E0 /* UIKit.framework in Frameworks */,
+				304CE8391B17552D00FEF2E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		304CE80C1B17552D00FEF2E0 = {
+			isa = PBXGroup;
+			children = (
+				304CE81E1B17552D00FEF2E0 /* BLSignature */,
+				304CE83D1B17552D00FEF2E0 /* BLSignatureTests */,
+				304CE8171B17552D00FEF2E0 /* Frameworks */,
+				304CE8161B17552D00FEF2E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		304CE8161B17552D00FEF2E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				304CE8151B17552D00FEF2E0 /* BLSignature.app */,
+				304CE8361B17552D00FEF2E0 /* BLSignatureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		304CE8171B17552D00FEF2E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				304CE8181B17552D00FEF2E0 /* Foundation.framework */,
+				304CE81A1B17552D00FEF2E0 /* CoreGraphics.framework */,
+				304CE81C1B17552D00FEF2E0 /* UIKit.framework */,
+				304CE8371B17552D00FEF2E0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		304CE81E1B17552D00FEF2E0 /* BLSignature */ = {
+			isa = PBXGroup;
+			children = (
+				30B748351B1771AA0038CF14 /* Test */,
+				304CE8271B17552D00FEF2E0 /* BLAppDelegate.h */,
+				304CE8281B17552D00FEF2E0 /* BLAppDelegate.m */,
+				304CE8301B17552D00FEF2E0 /* Images.xcassets */,
+				304CE81F1B17552D00FEF2E0 /* Supporting Files */,
+				304CE84D1B17555B00FEF2E0 /* BLViewController.h */,
+				304CE84E1B17555B00FEF2E0 /* BLViewController.m */,
+				304CE84F1B17555B00FEF2E0 /* BLViewController.xib */,
+				30B748251B1755E00038CF14 /* BLSignatureView.h */,
+				30B748261B1755E00038CF14 /* BLSignatureView.m */,
+				30B748281B1755EE0038CF14 /* BLSignatureView.xib */,
+			);
+			path = BLSignature;
+			sourceTree = "<group>";
+		};
+		304CE81F1B17552D00FEF2E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				304CE8201B17552D00FEF2E0 /* BLSignature-Info.plist */,
+				304CE8211B17552D00FEF2E0 /* InfoPlist.strings */,
+				304CE8241B17552D00FEF2E0 /* main.m */,
+				304CE8261B17552D00FEF2E0 /* BLSignature-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		304CE83D1B17552D00FEF2E0 /* BLSignatureTests */ = {
+			isa = PBXGroup;
+			children = (
+				304CE8431B17552D00FEF2E0 /* BLSignatureTests.m */,
+				304CE83E1B17552D00FEF2E0 /* Supporting Files */,
+			);
+			path = BLSignatureTests;
+			sourceTree = "<group>";
+		};
+		304CE83E1B17552D00FEF2E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				304CE83F1B17552D00FEF2E0 /* BLSignatureTests-Info.plist */,
+				304CE8401B17552D00FEF2E0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30B748351B1771AA0038CF14 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				30B7482A1B175A0C0038CF14 /* BLPoint.h */,
+				30B7482B1B175A0C0038CF14 /* BLPoint.m */,
+				30B748391B1772170038CF14 /* BLPointList.h */,
+				30B7483A1B1772170038CF14 /* BLPointList.m */,
+				30B7483C1B1772870038CF14 /* BLNode.h */,
+				30B7483D1B1772870038CF14 /* BLNode.m */,
+				30B7483F1B17731E0038CF14 /* BLNodeList.h */,
+				30B748401B17731E0038CF14 /* BLNodeList.m */,
+				30B748421B17733F0038CF14 /* BLSpline.h */,
+				30B748431B17733F0038CF14 /* BLSpline.m */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		304CE8141B17552D00FEF2E0 /* BLSignature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 304CE8471B17552D00FEF2E0 /* Build configuration list for PBXNativeTarget "BLSignature" */;
+			buildPhases = (
+				304CE8111B17552D00FEF2E0 /* Sources */,
+				304CE8121B17552D00FEF2E0 /* Frameworks */,
+				304CE8131B17552D00FEF2E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLSignature;
+			productName = BLSignature;
+			productReference = 304CE8151B17552D00FEF2E0 /* BLSignature.app */;
+			productType = "com.apple.product-type.application";
+		};
+		304CE8351B17552D00FEF2E0 /* BLSignatureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 304CE84A1B17552D00FEF2E0 /* Build configuration list for PBXNativeTarget "BLSignatureTests" */;
+			buildPhases = (
+				304CE8321B17552D00FEF2E0 /* Sources */,
+				304CE8331B17552D00FEF2E0 /* Frameworks */,
+				304CE8341B17552D00FEF2E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				304CE83C1B17552D00FEF2E0 /* PBXTargetDependency */,
+			);
+			name = BLSignatureTests;
+			productName = BLSignatureTests;
+			productReference = 304CE8361B17552D00FEF2E0 /* BLSignatureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		304CE80D1B17552D00FEF2E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Bao Lan Le Quang";
+				TargetAttributes = {
+					304CE8351B17552D00FEF2E0 = {
+						TestTargetID = 304CE8141B17552D00FEF2E0;
+					};
+				};
+			};
+			buildConfigurationList = 304CE8101B17552D00FEF2E0 /* Build configuration list for PBXProject "BLSignature" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 304CE80C1B17552D00FEF2E0;
+			productRefGroup = 304CE8161B17552D00FEF2E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				304CE8141B17552D00FEF2E0 /* BLSignature */,
+				304CE8351B17552D00FEF2E0 /* BLSignatureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		304CE8131B17552D00FEF2E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304CE8511B17555B00FEF2E0 /* BLViewController.xib in Resources */,
+				304CE8311B17552D00FEF2E0 /* Images.xcassets in Resources */,
+				304CE8231B17552D00FEF2E0 /* InfoPlist.strings in Resources */,
+				30B748291B1755EE0038CF14 /* BLSignatureView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		304CE8341B17552D00FEF2E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304CE8421B17552D00FEF2E0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		304CE8111B17552D00FEF2E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304CE8501B17555B00FEF2E0 /* BLViewController.m in Sources */,
+				30B7483E1B1772870038CF14 /* BLNode.m in Sources */,
+				304CE8291B17552D00FEF2E0 /* BLAppDelegate.m in Sources */,
+				30B7483B1B1772170038CF14 /* BLPointList.m in Sources */,
+				30B748441B17733F0038CF14 /* BLSpline.m in Sources */,
+				304CE8251B17552D00FEF2E0 /* main.m in Sources */,
+				30B748271B1755E00038CF14 /* BLSignatureView.m in Sources */,
+				30B7482C1B175A0C0038CF14 /* BLPoint.m in Sources */,
+				30B748411B17731E0038CF14 /* BLNodeList.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		304CE8321B17552D00FEF2E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304CE8441B17552D00FEF2E0 /* BLSignatureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		304CE83C1B17552D00FEF2E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 304CE8141B17552D00FEF2E0 /* BLSignature */;
+			targetProxy = 304CE83B1B17552D00FEF2E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		304CE8211B17552D00FEF2E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				304CE8221B17552D00FEF2E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		304CE8401B17552D00FEF2E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				304CE8411B17552D00FEF2E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		304CE8451B17552D00FEF2E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		304CE8461B17552D00FEF2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		304CE8481B17552D00FEF2E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLSignature/BLSignature-Prefix.pch";
+				INFOPLIST_FILE = "BLSignature/BLSignature-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		304CE8491B17552D00FEF2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLSignature/BLSignature-Prefix.pch";
+				INFOPLIST_FILE = "BLSignature/BLSignature-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		304CE84B1B17552D00FEF2E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BLSignature.app/BLSignature";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLSignature/BLSignature-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BLSignatureTests/BLSignatureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		304CE84C1B17552D00FEF2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BLSignature.app/BLSignature";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLSignature/BLSignature-Prefix.pch";
+				INFOPLIST_FILE = "BLSignatureTests/BLSignatureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		304CE8101B17552D00FEF2E0 /* Build configuration list for PBXProject "BLSignature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				304CE8451B17552D00FEF2E0 /* Debug */,
+				304CE8461B17552D00FEF2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		304CE8471B17552D00FEF2E0 /* Build configuration list for PBXNativeTarget "BLSignature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				304CE8481B17552D00FEF2E0 /* Debug */,
+				304CE8491B17552D00FEF2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		304CE84A1B17552D00FEF2E0 /* Build configuration list for PBXNativeTarget "BLSignatureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				304CE84B1B17552D00FEF2E0 /* Debug */,
+				304CE84C1B17552D00FEF2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 304CE80D1B17552D00FEF2E0 /* Project object */;
+}
